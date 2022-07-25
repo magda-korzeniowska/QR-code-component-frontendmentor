@@ -1,0 +1,57 @@
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Outfit', sans-serif;
+  background-color: hsl(212, 45%, 89%);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  max-width: 320px;
+  border-radius: 18px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 18px;
+  margin: 0 1rem;
+}
+
+.card__image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card__content {
+  padding: 0 10px;
+  text-align: center;
+}
+
+.card__title {
+  font-weight: 700;
+  font-size: 22px;
+  color: hsl(218, 44%, 22%);
+}
+
+.card__description {
+  font-size: 15px;
+  color: hsl(220, 15%, 55%);
+}
+
+.attribution {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
